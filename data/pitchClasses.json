@@ -1,0 +1,14 @@
+[
+    {"pitchClassSharp": "C", "pitchClassFlat": "C", "integerNotation": 0},
+    {"pitchClassSharp": "C♯", "pitchClassFlat": "D♭", "integerNotation": 1},
+    {"pitchClassSharp": "D", "pitchClassFlat": "D", "integerNotation": 2},
+    {"pitchClassSharp": "D♯", "pitchClassFlat": "E♭", "integerNotation": 3},
+    {"pitchClassSharp": "E", "pitchClassFlat": "E", "integerNotation": 4},
+    {"pitchClassSharp": "F", "pitchClassFlat": "F", "integerNotation": 5},
+    {"pitchClassSharp": "F♯", "pitchClassFlat": "G♭", "integerNotation": 6},
+    {"pitchClassSharp": "G", "pitchClassFlat": "G", "integerNotation": 7},
+    {"pitchClassSharp": "G♯", "pitchClassFlat": "A♭", "integerNotation": 8},
+    {"pitchClassSharp": "A", "pitchClassFlat": "A", "integerNotation": 9},
+    {"pitchClassSharp": "A♯", "pitchClassFlat": "B♭", "integerNotation": 10},
+    {"pitchClassSharp": "B", "pitchClassFlat": "B", "integerNotation": 11}
+]

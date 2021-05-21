@@ -1,0 +1,131 @@
+/*---------------- GENERAL STYLES ----------------*/
+
+@charset "UTF-8";
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap"); */
+
+@font-face {
+    font-family: monaco;
+    src: url(monaco.ttf);
+}
+
+html {
+    color: #292929;
+    background-color: #ebe7d1;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: "Palatino", "Cormorant Garamond", serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 14px;
+    margin: 24px;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 6px;
+    line-height: 18px;
+}
+
+a {
+    color: #292929;
+}
+
+/*---------------- SCROLLAMA ----------------*/
+
+#scroll {
+    position: relative;
+}
+
+.scroll-text {
+    position: relative;
+    flex: 1;
+}
+
+.step {
+    max-height: 1px;
+}
+
+.scroll-graphic {
+    position: sticky;
+    top: 0;
+    flex: 2;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.scroll-graphic #planet {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*---------------- CONTAINERS ----------------*/
+
+#title {
+    display: table;
+    height: 100vh;
+}
+
+.title-description {
+    max-width: 650px;
+    width: 55%;
+    margin: 15% auto;
+}
+
+.container-body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*---------------- CANVAS ----------------*/
+
+#planet {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    height: 100%;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media only screen and (max-width: 800px) {
+    .container-body {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container-body {
+        width: 100%;
+    }
+}

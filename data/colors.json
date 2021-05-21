@@ -1,0 +1,81 @@
+{
+    "Mars": {
+        "background": "#28303a",
+        "text": "#ffe2a1",
+        "primary": "#982929",
+        "secondary": "#cc483c",
+        "tertiary": "#ee8062",
+        "accent": "#ffc32e",
+        "blend": "#b95856"
+    },
+
+    "Venus": {
+        "background": "#f8f2e8",
+        "text": "#de9f52",
+        "primary": "#ead6ce",
+        "secondary": "#e5aba1",
+        "tertiary": "#f3dec9",
+        "accent": "#a3c3af",
+        "blend": "#6fa0a1"
+    },
+
+    "Mercury": {
+        "background": "#7FA9B5",
+        "text": "#DAEEFF",
+        "primary": "#ffffff",
+        "secondary": "#6acce6",
+        "tertiary": "#c1e7ee",
+        "accent": "#ffe2a1",
+        "blend": "#b3dfd5"
+    },
+
+    "Jupiter": {
+        "background": "#4b2d91",
+        "text": "#f6d0a8",
+        "primary": "#cf4a50",
+        "secondary": "#bc2c4c",
+        "tertiary": "#e58586",
+        "accent": "#f18c21",
+        "blend": "#114b89"
+    },
+
+    "Saturn": {
+        "background": "#d0c7df",
+        "text": "#403764",
+        "primary": "#cf9eb3",
+        "secondary": "#7e69af",
+        "tertiary": "#7d3f6c",
+        "accent": "#fff9ea",
+        "blend": "#d1867b"
+    },
+
+    "Uranus": {
+        "background": "#557089",
+        "text": "#eaf7fa",
+        "primary": "#88d0c7",
+        "secondary": "#568c84",
+        "tertiary": "#51a4ba",
+        "accent": "#a3c3af",
+        "blend": "#fff7cb"
+    },
+
+    "Neptune": {
+        "background": "#273982",
+        "text": "#e8f6f9",
+        "primary": "#208fce",
+        "secondary": "#215f82",
+        "tertiary": "#228f9b",
+        "accent": "#822e74",
+        "blend": "#a2aad6"
+    },
+
+    "": {
+        "background": "#ebe7d1",
+        "text": "#292929",
+        "primary": "#ebe7d1",
+        "secondary": "#ebe7d1",
+        "tertiary": "#ebe7d1",
+        "accent": "#ebe7d1",
+        "blend": "#ebe7d1"
+    }
+}
